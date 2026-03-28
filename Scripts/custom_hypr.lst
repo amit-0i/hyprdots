@@ -18,6 +18,7 @@ udiskie                                                # manage removable media
 unzip                                                  # needed for spicetify marketplace installaion
 noto-fonts-emoji                                       # emojis 
 xdg-user-dirs                                          # installing user folders
+wf-recorder
 
 # --------------------------------------------------- // Display Manager
 sddm                                                   # display manager for KDE plasma
