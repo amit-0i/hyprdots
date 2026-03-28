@@ -4,6 +4,6 @@ Font_JetBrainsMono|$HOME/.local/share/fonts
 Font_MapleNerd|$HOME/.local/share/fonts
 Font_MononokiNerd|$HOME/.local/share/fonts
 Font_NotoSansCJK|/usr/share/fonts
-Cursor_BibataIce|/usr/share/icons
-Cursor_BibataIce|$HOME/.local/share/icons
+Cursor_Bibata-Original-Ice|/usr/share/icons
+Cursor_Bibata-Original-Ice|$HOME/.local/share/icons
 Gtk_Wallbash|$HOME/.local/share/themes
