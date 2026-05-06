@@ -16,7 +16,7 @@ fi
 wallbashOut="${dcolDir}/$(set_hash "${wallbashImg}").dcol"
 
 if [ ! -f "${wallbashOut}" ] ; then
-    "${scrDir}/swwwallcache.sh" -w "${wallbashImg}" &> /dev/null
+    "${scrDir}/awwwallcache.sh" -w "${wallbashImg}" &> /dev/null
 fi
 
 set -a
@@ -229,7 +229,7 @@ fn_wallbash () {
 
 export -f fn_wallbash
 
-[ -n "$HYPRLAND_INSTANCE_SIGNATURE" ] &&  hyprctl keyword misc:disable_autoreload 1 -q && trap 'hyprctl reload -q && echo "[swwwallbash] reload :: Hyprland"' EXIT
+[ -n "$HYPRLAND_INSTANCE_SIGNATURE" ] &&  hyprctl keyword misc:disable_autoreload 1 -q && trap 'hyprctl reload -q && echo "[awwwallbash] reload :: Hyprland"' EXIT
 
 #// switch theme <//> wall based colors
 
